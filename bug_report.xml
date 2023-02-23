@@ -1,1 +1,34 @@
-
+<Bug_Report_0001> 
+    <ID>0001</ID>
+    <Data_Submitted>09.02.2023</Data_Submitted>
+    <Reposter>Valeriia D</Reposter>
+    <Priority>Low</Priority>
+    <Severity>Text</Severity>
+    <Reproducibility>Always</Reproducibility>
+    <Status>new</Status>
+    <Platform>Safari 16.3</Platform>
+    <OS>macOS</OS>
+    <OS_Version>Ventura 13.2</OS_Version>
+    <Summary>'Никоим образом' item is incorrectly translated on the user registration page after changing the language to Russian</Summary>
+    <Description>'Никоим образом' item is incorrectly translated on the user registration page after changing the language to Russian<Description>
+    <Preconditions>
+      <1>The site https://capital.com  is opened</1>
+      <2>The language is changed to Russian</2>
+    </Preconditions>
+    <Steps_to_Reproduce>
+      <1>Click the 'Создать аккаунт' button</1>
+      <2>Enter valid data in the 'Адресс электронной почты' and 'Пароль' fields</2>
+      <3>Click the 'Продолжить' button</3>
+      <4>Click 'Перейти на платформу' button</4>
+      <5>Mark the 'Я не являюсь yалоговым резидентом США' checkbox</5>
+      <6>Click the 'Пролоджить' button</6>
+      <7>Click any item in the 'Причина открытия аккаунта' page</7>
+      <8>Pay attention to the 'Никоим образом' item in the 'У вас есть опыт торговли?' page</8>
+    </Steps_to_Reproduce>
+    <Actual_Result>'Никоим образом' item is incorrectly translated on the user registration page after changing the language to Russian</Actual_Result>
+    <Expected_Result>'Вовсе нет' item is translated on the user registration page after changing the language to Russian</Expected_Result>
+    <Attached_Files>
+      <Video>https://www.dropbox.com/s/nzt5qiv56c7718o/Screen%20Recording%202023-02-09%20at%202.22.25%20PM.mov?dl=0</Video>
+      <Picture>https://www.dropbox.com/s/kbzcekr3xin4q36/Screenshot%202023-02-09%20at%2012.26.35%20PM.png?dl=0</Picture>
+    </Attached_Files>
+</Bug_Report_0001>
